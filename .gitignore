@@ -1,0 +1,80 @@
+# Documents Services Repository
+# This repository contains various document processing services
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# FastAPI / uvicorn
+*.log
+logs/
+
+# AWS specific
+.aws-sam/
+samconfig.toml
+*.zip
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp_*
+/tmp/
+
+# Test files
+*.test
+test_files/
+test_output/
+
+# Document processing temp files
+converted_files/
+uploads/
+downloads/
